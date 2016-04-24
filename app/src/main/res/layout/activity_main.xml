@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFEBEE"
+    tools:context="blogspot.bitdevpirates.ikkilosambel.ikkilosambel.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:background="@drawable/sambal_terasi"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imgBsatu"
+        android:onClick="onCterasi"
+
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#B2FF59"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgBdua"
+        android:layout_below="@+id/imgBsatu" />
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="terasi tidak di tekan"
+        android:id="@+id/txtVterasi"
+
+        />-->
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#E040FB"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgBtiga"
+        android:layout_below="@+id/imgBdua" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#2196F3"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgBempat"
+        android:layout_below="@+id/imgBtiga" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#F44336"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgBlima"
+        android:layout_below="@+id/imgBtiga" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#76FF03"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgBenam"
+        android:layout_below="@+id/imgBtiga" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FFEB3B"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgTujuh"
+        android:layout_below="@+id/imgBtiga" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FF3D00"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imgDelapan"
+        android:layout_below="@+id/imgBtiga" />
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
