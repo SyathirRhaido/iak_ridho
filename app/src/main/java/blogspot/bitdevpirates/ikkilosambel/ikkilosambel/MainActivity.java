@@ -23,13 +23,16 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setTitle("Ikkilo Sambel");
         }
 
-
-
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
 
-
-    /*
+        return true;
+    }
+/*
      public boolean onCreateOptionsMenu(Menu menu){
 
             MenuInflater inflater = getMenuInflater();
